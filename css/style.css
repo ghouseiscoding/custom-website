@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* This is section is for styling Header. */
+
+.header-section{
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: lightgoldenrodyellow;
+}
+
+.logo{
+    width: 4.5rem;
+    margin: 10px 10px 10px 40px;
+}
+
+.nav-bar{
+    margin: 10px 40px;
+
+}
+
+.nav-menu{
+    text-decoration: none;
+    padding: 10px;
+}
