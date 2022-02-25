@@ -63,13 +63,4 @@ color: black;
 .cta{
     margin-left: 80px;
     margin-top: 30px;
-    border: none;
-    background-color: #393b3b;
-    color: white;
-    padding: 12px 25px 12px 25px;
-}
-
-.cta:hover{
-    padding: 18px 31px 18px 31px;
-    transition: ease 200ms;
 }
