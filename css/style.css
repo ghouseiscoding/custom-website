@@ -18,7 +18,8 @@ color: black;
 }
 
 .logo{
-    width: 4rem;
+    width: 8rem;
+    height: auto;
     margin: 0px 10px 0px 80px;
 }
 
@@ -31,10 +32,11 @@ color: black;
 .nav-menu{
     text-decoration: none;
     padding: 10px;
+    font-size: .9rem;
 }
 
 .nav-menu:hover{
-    color: #CFB290;
+    color: #FF8136;
 }
 
 /* This is for Hero section */
@@ -42,11 +44,13 @@ color: black;
 .hero-section{
     background-image: url("../images/sofa.jpg");
     background-repeat: no-repeat;
-    position: absolute;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-heading{
@@ -56,26 +60,68 @@ color: black;
     font-size: 4rem;
     width: 45%;
     color: #5e6061;
+    text-align: center;
 }
 
 .desc{
     font-family: 'Roboto Serif', sans-serif;
-    margin-left: 80px;
     padding-top: 30px;
     width: 30%;
     line-height: 30px;
+    text-align: center;
+
 }
 
 .cta{
-    margin: 30px 0 30px 80px;
+    margin: 20px;
     border: none;
-    background-color: #393b3b;
+    border-radius: 20px;
+    background-color: black;
     color: white;
-    padding: 12px 25px 12px 25px;
+    padding: 15px 25px 12px 25px;
+    font-family: 'Roboto Serif', sans-serif;
 }
 
 .cta:hover{
-    padding: 18px 31px 18px 31px;
-    transform: scale(1);
-    transition: ease 200ms;
+    transform-origin: center;
+    transform: scale(1.1);
+    transition: ease 300ms;
+    background-color: #FF8136;
+    color: black;
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: 800;
+}
+
+/* This is for form section */
+
+.form{
+    text-align: center;
+
+
+}
+
+
+.labels{
+    text-align: left;
+}
+
+.submit{
+    background-color: black;
+    color: white;
+    padding: 10px 150px 10px 150px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    font-family: 'Roboto Serif', sans-serif;
+
+}
+
+.submit:hover{
+    transform-origin: center;
+    transform: scale(1.1);
+    transition: ease 300ms;
+    background-color: #FF8136;
+    color: black;
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: 800;
 }
